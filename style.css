@@ -11,4 +11,13 @@
 
 body {
   font-size: 1.6rem;
+
+  /*background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; */
+
+  /* background: image repeat position/size (shorthand) */
+
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
