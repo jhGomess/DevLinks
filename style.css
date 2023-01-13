@@ -22,6 +22,11 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
 #container {
   border: 1px solid red;
   height: 71.2rem;
@@ -36,4 +41,9 @@ body {
 
 #profile img {
   width: 11.2rem;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
