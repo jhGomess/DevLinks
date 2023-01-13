@@ -19,7 +19,7 @@ body {
 
   /* background: image repeat position/size (shorthand) */
 
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
 }
 
 #container {
@@ -28,4 +28,12 @@ body {
   width: 36rem;
 
   margin: 0 auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 11.2rem;
 }
