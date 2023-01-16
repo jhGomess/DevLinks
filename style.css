@@ -33,7 +33,7 @@ body * {
   width: 36rem;
 
   margin: auto;
-  padding-top: 5.6rem;
+  padding: 5.6rem 2.4rem 0rem;
 }
 
 #profile {
@@ -50,4 +50,22 @@ body * {
   line-height: 24px;
 
   margin-top: 0.8rem;
+}
+
+/* Links */
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 2.4rem;
+
+  border-radius: 0.8rem;
+  border: 1px solid white;
 }
