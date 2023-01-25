@@ -38,7 +38,7 @@ body * {
 
 #profile {
   text-align: center;
-  padding: 2.4rem;
+  padding: 2.4rem 0rem;
 }
 
 #profile img {
@@ -47,7 +47,7 @@ body * {
 
 #profile p {
   font-weight: 500;
-  line-height: 24px;
+  line-height: 2.4rem;
 
   margin-top: 0.8rem;
 }
@@ -59,7 +59,7 @@ ul {
   flex-direction: column;
   gap: 1.6rem;
 
-  padding: 2.4rem;
+  padding: 2.4rem 0rem;
 }
 
 ul li a {
@@ -78,7 +78,7 @@ ul li a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
-  transition: background 0.3s, border 0.3s;
+  transition: background 0.2s, border 0.2s;
 }
 
 ul li a:hover {
