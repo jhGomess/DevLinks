@@ -58,6 +58,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+
+  padding: 2.4rem;
 }
 
 ul li a {
@@ -66,6 +68,7 @@ ul li a {
   justify-content: center;
 
   text-decoration: none;
+  font-weight: 500;
 
   padding: 1.6rem 2.4rem;
   background: rgba(255, 255, 255, 0.1);
