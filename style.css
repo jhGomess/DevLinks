@@ -8,6 +8,9 @@
 
 :root {
   font-size: 62.5%;
+
+  --text-color: white;
+  --bg-mobile: url(./assets/bg-mobile.jpg);
 }
 
 body {
@@ -20,12 +23,12 @@ body {
 
   /* background: image repeat position/size (shorthand) */
 
-  background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
+  background: var(--bg-mobile) no-repeat top center / cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  color: white;
+  color: var(--text-color);
 }
 
 #container {
@@ -69,8 +72,8 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  padding: 1.6rem 2.4rem;
   background: rgba(255, 255, 255, 0.1);
+  padding: 1.6rem 2.4rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0.8rem;
 
@@ -82,7 +85,7 @@ ul li a {
 
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
 }
 
 /* SOCIAL LINKS */
