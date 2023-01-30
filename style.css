@@ -11,11 +11,19 @@
 
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --highlight-color-hover: rgba(255, 255, 255, 0.2);
 }
 
 .light-mode {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --highlight-color-hover: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -77,9 +85,9 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--surface-color);
   padding: 1.6rem 2.4rem;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--stroke-color);
   border-radius: 0.8rem;
 
   backdrop-filter: blur(4px);
@@ -89,7 +97,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
@@ -116,7 +124,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--highlight-color-hover);
 }
 
 /* FOOTER */
