@@ -10,7 +10,12 @@
   font-size: 62.5%;
 
   --text-color: white;
-  --bg-mobile: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
+}
+
+.light-mode {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
 }
 
 body {
@@ -23,7 +28,7 @@ body {
 
   /* background: image repeat position/size (shorthand) */
 
-  background: var(--bg-mobile) no-repeat top center / cover;
+  background: var(--bg-url) no-repeat top center / cover;
 }
 
 body * {
