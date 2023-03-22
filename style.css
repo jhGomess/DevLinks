@@ -18,7 +18,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
-.light-mode {
+.light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -28,7 +28,7 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-.light-mode #switch button {
+.light #switch button {
   right: 0;
   left: initial;
 }
