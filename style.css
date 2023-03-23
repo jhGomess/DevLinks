@@ -16,6 +16,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --highlight-color-hover: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --footer-hover: rgb(207, 144, 248);
 }
 
 .light {
@@ -26,6 +27,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --highlight-color-hover: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --footer-hover: rgb(106, 26, 160);
 }
 
 .light #switch button {
@@ -185,5 +187,5 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(184, 137, 228);
+  color: var(--footer-hover);
 }
