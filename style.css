@@ -46,6 +46,7 @@ body {
   /* background: image repeat position/size (shorthand) */
 
   background: var(--bg-url) no-repeat top center / cover;
+  height: 100vh;
 }
 
 body * {
@@ -54,7 +55,8 @@ body * {
 }
 
 #container {
-  width: 36rem;
+  width: 100%;
+  max-width: 58.8rem;
 
   margin: auto;
   padding: 5.6rem 2.4rem 0rem;
