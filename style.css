@@ -31,8 +31,7 @@
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
 }
 
 body {
@@ -102,6 +101,8 @@ body * {
   border-radius: 50%;
 
   background: white var(--switch-bg-url) no-repeat center;
+
+  animation: slide-back 0.2s;
 }
 
 #switch .track {
@@ -194,6 +195,7 @@ footer a:hover {
 }
 
 /* MEDIA QUERIES */
+
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
@@ -201,5 +203,25 @@ footer a:hover {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* ANIMATION */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
