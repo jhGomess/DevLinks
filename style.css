@@ -36,6 +36,8 @@
 }
 
 body {
+  height: 100vh;
+
   font-size: 1.6rem;
 
   /*background-image: url(./assets/bg-mobile.jpg);
@@ -46,7 +48,6 @@ body {
   /* background: image repeat position/size (shorthand) */
 
   background: var(--bg-url) no-repeat top center / cover;
-  height: 100vh;
 }
 
 body * {
@@ -190,4 +191,15 @@ footer a {
 
 footer a:hover {
   color: var(--footer-hover);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
