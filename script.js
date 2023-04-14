@@ -8,7 +8,7 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se estiver light-mode, adicionar essa imagem
-    img.setAttribute("src", "./assets/enricco.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de Jhuan Gomes sorrindo, usando oculos e utilizando uma camisa preta."
