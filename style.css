@@ -210,6 +210,11 @@ footer a:hover {
   }
 }
 
+@media (max-width: 700px) {
+  #switch button:hover {
+    outline: none;
+  }
+}
 /* ANIMATION */
 
 @keyframes slide-in {
